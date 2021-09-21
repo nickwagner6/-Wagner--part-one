@@ -1,0 +1,232 @@
+.header {
+    display: flex; 
+    
+}
+
+body {
+    font-family: bungee;
+    height: 100%;
+    width: 80%;
+}
+
+
+#ccc {
+    height: 15%;  
+    width: 30%;
+    margin-left: 5%;
+}
+
+h5{
+    margin-left: 8.5%;
+    margin-top: 2.5%;
+    color: #7944e6;
+    font-size: 150%;
+    word-spacing: 31px;
+}
+
+.truck {
+    height: 40%;
+    padding-left: 26%;
+    padding-top: 5%;
+}
+
+h1 {
+    margin-top: -36%;
+    padding-top: 38%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    
+}
+
+.coffeeimage {
+    border:#7944e6 solid 7px;
+    margin-left: 23%;
+    margin-top: -16%;
+    width: 45%;
+    
+}
+
+h2 {
+    font-family: bungee;
+    color: ;
+    font-size: 200%;
+    margin-left: 38%;
+    padding-top: 2%;
+    
+}
+
+.creamimage {
+    border:#7944e6 solid 7px;
+    margin-left: 23%;
+    margin-top: -22%;
+    width: 45%;
+}
+
+h3 {
+    font-size: 200%;
+    margin-left: 38%;
+    position: relative; top: -4%;
+    
+}
+
+.cookieimage {
+    border:#7944e6 solid 7px;
+    margin-left: 23%;
+    margin-top: -25%;
+    width: 45%;
+}
+
+h4 {
+    font-size: 200%;
+    margin-left: 37%;
+    position: relative; top: -5%;
+}
+
+#pinkContainer {
+    height: 40%;
+    width: 84%;
+    background-color: #ff00ff;
+    margin-left: 5%;
+    padding: 2%;
+    margin-top: -0.5%;
+}
+
+#text {
+    font-size: 125%;
+    font-weight: 900;
+    margin-top: -7%;
+    line-height: 126%;
+    padding-left: 1%;
+}
+
+.button1 {
+    color: #7944e6;
+    border: none;
+    font-family: bungee;
+    font-size: 140%;
+    background-color: transparent;
+    margin-left: 36%;
+    position: relative; top: -8%;
+}
+
+.button2 {
+    color: #7944e6;
+    border: none;
+    font-family: bungee;
+    font-size: 140%;
+    background-color: transparent;
+    margin-left: 36%;
+    position: relative; top: -8%;
+}
+
+.button3 {
+    color: #7944e6;
+    border: none;
+    font-family: bungee;
+    font-size: 140%;
+    background-color: transparent;
+    margin-left: 36%;
+    position: relative; top: -8%;
+}
+
+@media screen and (min-width: 768px) {
+
+    #pinkContainer {
+        width: 90%;
+        position: relative; right: 3.5%;
+        margin-top: -2%;
+}
+
+#ccc {
+    position: relative; left: -4%;
+    width: 17%;
+}
+
+h5 {
+    margin-left: 46%;
+}
+
+.truck {
+    height: 90%;
+    position: relative; left: -22%;
+    margin-top: -4%;
+}
+
+h1 {
+    margin-left: 50%;
+    position: relative; top: -100%;
+}
+
+#text {
+    margin-left: 50%;
+    width: 50%;
+    position: relative; top: -90%;
+    font-size: 115%;
+}
+
+.coffeeimage {
+    width: 25%;
+    margin-left:  5%;
+    margin-top: -10%;
+}
+
+h2 {
+    margin-left: 12.5%;
+    margin-top: 2%;
+    position: relative; top: -3%;
+}
+
+.button1 {
+    margin-left: 12%;
+    position: relative; top: -13%;
+
+}
+
+.button1:hover {
+    color: #10fdff;
+}
+
+.creamimage {
+    width: 25%;
+    margin-left:  36%;
+    position: relative; top: -67.7%;
+}
+ 
+h3 {
+    margin-left: 45%;
+    position: relative; top: -97%;
+    
+}
+
+.button2 {
+    margin-left: 43%;
+    position: relative; top: -80%;
+}
+
+.button2:hover {
+    color: #10fdff;
+}
+
+.cookieimage{
+    width: 25%;
+    margin-left:  67%;
+    position: relative; top: -131.4%;
+}
+
+h4 {
+    margin-left: 76%;
+    position: relative; top: -165%;
+}
+
+.button3 {
+    margin-left: 75%;
+    position: relative; top: -144.5%;
+   
+}
+
+.button3:hover {
+    color: #10fdff;
+}
+
+
+}
