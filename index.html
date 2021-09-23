@@ -1,44 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
- 
-    <header class="header"> 
-        <img src="ccc.svg" alt="CCC Image" id="ccc">
-        <h5> coffee cream cookies</h5>
-        
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CCC Webpage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="assets/ccc.svg" alt="CCC Image" id="ccc" />
+      <nav>
+        <ul class="nav-list">
+          <li>
+            <a href="#" class="nav-item">coffee</a>
+          </li>
+          <li>
+            <a href="#" class="nav-item">cream</a>
+          </li>
+          <li>
+            <a href="#" class="nav-item">cookies</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <div id="pinkContainer">
-        <img class="truck" src="food-truck.svg" alt="truck" /> 
-        <h1>ABOUT</h1>
-        <div id="text">LOREM, IPSUM DOLOR SIT AMET CONECTETUR APIDISICING ELIT.
-            PLACEAT NEMO CUPIDITATE SEQUI ASPERIORES DOLORUM VEL VOLUPTATE HIC MODI
-            ARCHITECTO DISTINCTIO. EOS PLACEAT DUCIMUS TOTAM MAXIME, DELICTUS FUGA TENETUR 
-            CONSECTETUR ODIO?
-        </div>
-    </div>
-    
-        <h2>COFFEE</h2>
-        <img class="coffeeimage" src="coffee.svg" alt="Coffee" height="490px" width="50%" /> <br/>
-        <button class="button1">VIEW MENU</button> 
-       
-        <h3>CREAM</h3>
-        <img class="creamimage" src="cream.svg" alt="Ice Cream"height="490px" width="25%" /><br/>
-        <button class="button2">VIEW MENU</button> 
-        
-        <h4>COOKIE</h4>
-        <img class="cookieimage" src="cookie.svg" alt="Cookie" height="490px" width="25%" /> <br/>
-        <button class="button3">VIEW MENU </button>
-        
-    
 
+    <div class="pinkContainer">
+      <img class="truck" src="assets/food-truck.svg" alt="truck" />
+      <div class="pink-text">
+        <h1>ABOUT</h1>
+        <div class="text">
+          LOREM, IPSUM DOLOR SIT AMET CONECTETUR APIDISICING ELIT. PLACEAT NEMO
+          CUPIDITATE SEQUI ASPERIORES DOLORUM VEL VOLUPTATE HIC MODI ARCHITECTO
+          DISTINCTIO. EOS PLACEAT DUCIMUS TOTAM MAXIME, DELICTUS FUGA TENETUR
+          CONSECTETUR ODIO?
+        </div>
+      </div>
     </div>
-    
-</body>
+    <div class="side-by-side">
+      <div class="foodMenu">
+        <h3>COFFEE</h3>
+        <img class="coffeeimage" src="assets/coffee.svg" alt="Coffee" />
+        <a href="#" class="nav-item">VIEW MENU</a>
+      </div>
+
+      <div class="foodMenu">
+        <h3>CREAM</h3>
+        <img class="creamimage" src="assets/cream.svg" alt="Ice Cream" /><br />
+        <a href="#" class="nav-item">VIEW MENU</a>
+      </div>
+
+      <div class="foodMenu">
+        <h3>COOKIE</h3>
+        <img class="cookieimage" src="assets/cookie.svg" alt="Cookie" /> <br />
+        <a href="#" class="nav-item">VIEW MENU</a>
+      </div>
+    </div>
+  </body>
 </html>
